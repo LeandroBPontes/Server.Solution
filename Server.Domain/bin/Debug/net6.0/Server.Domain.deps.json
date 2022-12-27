@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Server.Domain/1.0.0": {
+        "dependencies": {
+          "Server.CrossCutting": "1.0.0"
+        },
+        "runtime": {
+          "Server.Domain.dll": {}
+        }
+      },
+      "Server.CrossCutting/1.0.0": {
+        "runtime": {
+          "Server.CrossCutting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Server.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Server.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

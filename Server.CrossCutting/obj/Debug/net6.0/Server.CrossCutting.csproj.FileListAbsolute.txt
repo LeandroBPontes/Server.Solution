@@ -1,0 +1,12 @@
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\bin\Debug\net6.0\Server.CrossCutting.deps.json
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\bin\Debug\net6.0\Server.CrossCutting.dll
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\bin\Debug\net6.0\Server.CrossCutting.pdb
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.csproj.AssemblyReference.cache
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.AssemblyInfoInputs.cache
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.AssemblyInfo.cs
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.dll
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\refint\Server.CrossCutting.dll
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\Server.CrossCutting.pdb
+C:\Users\leand\Desktop\Server.Solution\Server.CrossCutting\obj\Debug\net6.0\ref\Server.CrossCutting.dll

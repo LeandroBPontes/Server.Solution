@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Maps" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Server.CrossCutting\Server.CrossCutting.csproj" />
+      <ProjectReference Include="..\Server.Domain\Server.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.12" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.12" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+      <PackageReference Include="System.Linq" Version="4.3.0" />
+      <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.19" />
+    </ItemGroup>
+
+</Project>
