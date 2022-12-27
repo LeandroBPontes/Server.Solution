@@ -39,4 +39,21 @@ public class ServerRepository : Repository<Domain.Entities.Server>, IServerRepos
         
         return predicate;
     }
+    
+    public Expression<Func<Domain.Entities.Server, bool>> ForDays(int days)
+    {
+        
+        //FILTRAGEM POR DIAS
+        
+        var predicate =
+            PredicateBuilder.True<Domain.Entities.Server>();
+            
+        predicate = days != null
+            ? predicate.And(x => x.CreatedAt >=
+                                 DateTime.Now.AddDays(-days))
+            : predicate;
+        
+        
+        return predicate;
+    }
 }

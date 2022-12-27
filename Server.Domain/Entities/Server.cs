@@ -20,7 +20,8 @@ public class Server
         IpAddress = ipAddress,
         Name = name,
         Role = role,
-        Status = EStatus.NotRunning
+        Status = EStatus.NotRunning,
+        CreatedAt  = DateTime.UtcNow
     };
 
 
@@ -37,6 +38,7 @@ public class Server
         Name = name;
         Role = role;
         Status = status;
+        UpdatedAt = DateTime.UtcNow;
 
         return this;
     }
@@ -47,6 +49,10 @@ public class Server
     public string Name { get; private set; }
     public string Role { get; private set; }
     public EStatus Status { get; private set; }
+    
+    public DateTime CreatedAt { get; private set; }
+    
+    public DateTime UpdatedAt { get; private set; }
     
     public Video Video { get; private set; }
     

@@ -7,5 +7,7 @@ public class ServerFilter : Pagination
     public int? IpPort { get; set; }
     public string IpAddress { get; set; }
     public string Name { get; set; }
+    
+    public DateTime? CreatedAt { get; set; }
   
 }

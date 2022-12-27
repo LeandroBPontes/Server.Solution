@@ -6,4 +6,5 @@ namespace Server.Domain.Contracts;
 public interface IServerRepository: IRepository<Entities.Server>
 {
     Expression<Func<Entities.Server, bool>> Where(ServerFilter filter);
+    Expression<Func<Entities.Server, bool>> ForDays(int days);
 }
