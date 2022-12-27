@@ -11,7 +11,55 @@
     <projectFile>Server.Infra/Server.Infra.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da0ba32c-484f-4233-a2bb-db88630cb678" name="Changes" comment="" />
+    <list default="true" id="da0ba32c-484f-4233-a2bb-db88630cb678" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Server.Domain/Entities/Video.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server.Domain/Enums/EStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Server.Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server.Solution/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/Controllers/Api/ServerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/Controllers/Api/ServerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Server.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Server.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/Server.CrossCutting.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/Server.CrossCutting.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Server.Data.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Server.Data.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Data/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/AppServices/Commands/UpdateServerCommandcs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/AppServices/Commands/UpdateServerCommandcs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/AppServices/UpdateServerAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/AppServices/UpdateServerAppService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/Entities/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Entities/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/Server.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Server.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Server.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Server.Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/Debug/net6.0/Server.Infra.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/Debug/net6.0/Server.Infra.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/Debug/net6.0/Server.Infra.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/Debug/net6.0/Server.Infra.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/Debug/net6.0/Server.Infra.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/Debug/net6.0/Server.Infra.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/Server.Infra.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/Server.Infra.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Infra/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Infra/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +77,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JF6OgYLhPFaq5AUxG7bm9f4KaT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -232,13 +281,26 @@
       <workItem from="1672096979998" duration="2138000" />
       <workItem from="1672158706882" duration="12589000" />
       <workItem from="1672171750174" duration="543000" />
+      <workItem from="1672172485291" duration="1066000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

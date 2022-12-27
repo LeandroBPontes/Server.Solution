@@ -1,3 +1,5 @@
+using Server.Domain.Enums;
+
 namespace Server.Domain.Entities;
 
 public class Server
@@ -17,7 +19,8 @@ public class Server
         IpPort = ipPort,
         IpAddress = ipAddress,
         Name = name,
-        Role = role
+        Role = role,
+        Status = EStatus.NotRunning
     };
 
 
@@ -25,13 +28,15 @@ public class Server
         int ipPort,
         string ipAddress,
         string name,
-        string role
+        string role,
+        EStatus status
     )
     {
         IpPort = ipPort;
         IpAddress = ipAddress;
         Name = name;
-        Role = Role;
+        Role = role;
+        Status = status;
 
         return this;
     }
@@ -41,4 +46,9 @@ public class Server
     public string IpAddress { get; private set; }
     public string Name { get; private set; }
     public string Role { get; private set; }
+    public EStatus Status { get; private set; }
+    
+    public Video Video { get; private set; }
+    
+    public Guid VideoId { get; private set; }
 }

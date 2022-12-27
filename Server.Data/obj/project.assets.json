@@ -2367,11 +2367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Data\\Server.Data.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Data\\Server.Data.csproj",
       "projectName": "Server.Data",
-      "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Data\\Server.Data.csproj",
+      "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Data\\Server.Data.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Data\\obj\\",
+      "outputPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2386,11 +2386,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.CrossCutting\\Server.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.CrossCutting\\Server.CrossCutting.csproj"
+            "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.CrossCutting\\Server.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.CrossCutting\\Server.CrossCutting.csproj"
             },
-            "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Domain\\Server.Domain.csproj": {
-              "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Domain\\Server.Domain.csproj"
+            "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Domain\\Server.Domain.csproj": {
+              "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Domain\\Server.Domain.csproj"
             }
           }
         }

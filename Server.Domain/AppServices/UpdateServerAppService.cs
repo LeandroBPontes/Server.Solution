@@ -22,7 +22,7 @@ public class UpdateServerAppService : BaseAppService, IUpdateServerAppService
 
         if (server is not null)
 
-            server.Update(command.IpPort, command.IpAddress, command.Name, command.Role);
+            server.Update(command.IpPort, command.IpAddress, command.Name, command.Role, command.Status);
 
         return await CommitAsync()
             ? server.ToVm()

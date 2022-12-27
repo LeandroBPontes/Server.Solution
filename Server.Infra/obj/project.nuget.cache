@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcnjs3ysetg5StFKvP7kqqvCf49LSHvCiOub9fUoECQ0QZAREqZItnmgdsdGq2i9P2W18BgjkwWzdQlrrhVfnw==",
+  "dgSpecHash": "+TfU6h4mL6Pck774goG5NhHb86vqe2fpccgvmUWNjFM6YTlyEVK7T4/2rg22FDBmQgjNvdmRpJL2lt01DzvxGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Infra\\Server.Infra.csproj",
+  "projectFilePath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Infra\\Server.Infra.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

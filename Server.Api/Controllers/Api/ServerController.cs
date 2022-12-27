@@ -4,6 +4,7 @@ using Server.Api._Config.Polices;
 using Server.Domain.AppServices;
 using Server.Domain.AppServices.Commands;
 using Server.Domain.Contracts;
+using Server.Domain.Enums;
 using Server.Domain.Filters;
 using Server.Domain.Projections;
 using Server.Domain.Shared.Utils;
@@ -12,7 +13,7 @@ using Server.Domain.ViewModels;
 namespace Server.Api.Controllers.Api;
 
 [Authorize(AppPolice.Admin)]
-[Route("servers")]
+[Route("api/server")]
 public class ServerController : BaseController
 {
     private readonly IServerRepository _serverRepository;
@@ -37,7 +38,7 @@ public class ServerController : BaseController
     }
 
     [HttpGet("{id:guid}")]
-    public async Task<ServerVm> Banners(Guid id)
+    public async Task<ServerVm> GetById([FromRoute] Guid id)
     {
         if (id == Guid.Empty)
             return null;
@@ -55,8 +56,7 @@ public class ServerController : BaseController
             ? null
             : await appService.Create(command);
     }
-
-
+    
     [HttpPut("{id:guid}")]
     public async Task<ServerVm> Update(
         [FromServices] IUpdateServerAppService service, [FromBody] UpdateServerCommand command, [FromRoute] Guid id)
@@ -67,7 +67,17 @@ public class ServerController : BaseController
 
         return await service.Update(command);
     }
+    
+    [HttpPut("{id:guid}/video")]
+    public async Task<ServerVm> InsertVideo(
+        [FromServices] IUpdateServerAppService service, [FromBody] UpdateServerCommand command, [FromRoute] Guid id)
+    {
+        if (id == Guid.Empty) return null;
 
+        command.Id = id;
+
+        return await service.Update(command);
+    }
 
     [HttpDelete("{id:guid}")]
     public async Task<bool> Remove([FromRoute] Guid id, [FromServices] IDeleteServerAppService appService)
@@ -76,5 +86,15 @@ public class ServerController : BaseController
             return false;
 
         return await appService.Delete(id);
+    }
+    
+    [HttpGet("available/{id:guid}")]
+    public async Task<bool> CheckServerAvailableById([FromRoute] Guid id)
+    {
+        if (id == Guid.Empty)
+            return false;
+
+        return (await _serverRepository.FindAsyncAsNoTracking(b => b.Id == id)).Status == EStatus.Running;
+        
     }
 }

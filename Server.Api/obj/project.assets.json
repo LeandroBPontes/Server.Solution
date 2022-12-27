@@ -4304,11 +4304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Api\\Server.Api.csproj",
+      "projectUniqueName": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Api\\Server.Api.csproj",
       "projectName": "Server.Api",
-      "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Api\\Server.Api.csproj",
+      "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Api\\Server.Api.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Api\\obj\\",
+      "outputPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leand\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4323,14 +4323,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Data\\Server.Data.csproj": {
-              "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Data\\Server.Data.csproj"
+            "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Data\\Server.Data.csproj": {
+              "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Data\\Server.Data.csproj"
             },
-            "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Domain\\Server.Domain.csproj": {
-              "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Domain\\Server.Domain.csproj"
+            "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Domain\\Server.Domain.csproj": {
+              "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Domain\\Server.Domain.csproj"
             },
-            "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Infra\\Server.Infra.csproj": {
-              "projectPath": "C:\\Users\\leand\\Desktop\\Server.Solution\\Server.Infra\\Server.Infra.csproj"
+            "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Infra\\Server.Infra.csproj": {
+              "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Infra\\Server.Infra.csproj"
             }
           }
         }
