@@ -16,7 +16,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.12",
           "Server.Data": "1.0.0",
           "Server.Domain": "1.0.0",
-          "Server.Infra": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0",
           "System.Linq.Dynamic.Core": "1.2.24",
           "System.Threading.Tasks": "4.3.0"
@@ -786,15 +785,6 @@
         "runtime": {
           "Server.Domain.dll": {}
         }
-      },
-      "Server.Infra/1.0.0": {
-        "dependencies": {
-          "Server.CrossCutting": "1.0.0",
-          "Server.Domain": "1.0.0"
-        },
-        "runtime": {
-          "Server.Infra.dll": {}
-        }
       }
     }
   },
@@ -1361,11 +1351,6 @@
       "sha512": ""
     },
     "Server.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Server.Infra/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

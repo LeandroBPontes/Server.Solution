@@ -1371,20 +1371,6 @@
         "runtime": {
           "bin/placeholder/Server.Domain.dll": {}
         }
-      },
-      "Server.Infra/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Server.CrossCutting": "1.0.0",
-          "Server.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Server.Infra.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Server.Infra.dll": {}
-        }
       }
     }
   },
@@ -4275,11 +4261,6 @@
       "type": "project",
       "path": "../Server.Domain/Server.Domain.csproj",
       "msbuildProject": "../Server.Domain/Server.Domain.csproj"
-    },
-    "Server.Infra/1.0.0": {
-      "type": "project",
-      "path": "../Server.Infra/Server.Infra.csproj",
-      "msbuildProject": "../Server.Infra/Server.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4292,7 +4273,6 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.12",
       "Server.Data >= 1.0.0",
       "Server.Domain >= 1.0.0",
-      "Server.Infra >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.Linq.Dynamic.Core >= 1.2.24",
       "System.Threading.Tasks >= 4.3.0"
@@ -4328,9 +4308,6 @@
             },
             "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Domain\\Server.Domain.csproj": {
               "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Domain\\Server.Domain.csproj"
-            },
-            "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Infra\\Server.Infra.csproj": {
-              "projectPath": "C:\\Users\\leand\\Desktop\\Server\\Server.Solution\\Server.Infra\\Server.Infra.csproj"
             }
           }
         }

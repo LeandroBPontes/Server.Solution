@@ -3,7 +3,7 @@ using Server.Domain.Contracts.UnitOfWork;
 
 namespace Server.Data.UnitOfWork;
 
-internal class UnitOfWork<TContext> : IUnitOfWork where TContext : DbContext
+public class UnitOfWork<TContext> : IUnitOfWork where TContext : DbContext
 {
     private readonly TContext _context;
 

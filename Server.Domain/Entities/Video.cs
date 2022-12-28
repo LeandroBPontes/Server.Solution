@@ -39,8 +39,10 @@ public class Video
 
     public string Description { get; private set; }
 
-    public byte SizeInBytes { get; private set; }
+    public decimal SizeInBytes { get; private set; }
     
+    
+    public ICollection<ServerVideo> ServersVideos { get; private set; } = new List<ServerVideo>();
     public EStatus Status { get; private set; }
     public DateTime CreatedAt { get; private set; }
     

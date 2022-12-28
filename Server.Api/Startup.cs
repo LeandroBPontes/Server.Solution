@@ -12,7 +12,9 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Server.Data.DataContext;
 using Server.Data.Repositories;
+using Server.Data.UnitOfWork;
 using Server.Domain.Contracts;
+using Server.Domain.Contracts.UnitOfWork;
 
 namespace Server.Solution
 {
@@ -37,6 +39,9 @@ namespace Server.Solution
             });
             
             services.AddScoped<IServerRepository, ServerRepository>();
+            
+            // unit of work
+            services.AddScoped<IUnitOfWork, UnitOfWork<DatabaseConfig>>();
 
             //services.AddResponseCaching();
             services.AddCors();
@@ -115,11 +120,9 @@ namespace Server.Solution
             }
 
             app.UseRouting();
-
-
+            
             app.UseHttpsRedirection();
-
-
+            
             app.UseAuthentication();
             app.UseAuthorization();
 

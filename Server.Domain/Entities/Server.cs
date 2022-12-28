@@ -57,4 +57,6 @@ public class Server
     public Video Video { get; private set; }
     
     public Guid VideoId { get; private set; }
+
+    public ICollection<ServerVideo> ServersVideos { get; private set; } = new List<ServerVideo>();
 }
