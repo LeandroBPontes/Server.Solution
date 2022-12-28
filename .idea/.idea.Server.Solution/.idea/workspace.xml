@@ -12,74 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da0ba32c-484f-4233-a2bb-db88630cb678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server.Data/Extensions/MapExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Data/Maps/ServerMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Data/Maps/ServerVideoMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Data/Maps/VideoMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Data/Repositories/ServerVideoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Data/Repositories/VideoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Domain/Contracts/IServerVideoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Domain/Contracts/IVideoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server.Domain/Entities/ServerVideo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server.Domain/AppServices/Commands/AddVideoServerCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Server.Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server.Solution/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/Server.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/Server.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Api.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.CrossCutting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.CrossCutting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.CrossCutting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.CrossCutting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/bin/Debug/net6.0/Server.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/Server.Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/ref/Server.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/ref/Server.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/refint/Server.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Debug/net6.0/refint/Server.Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/Server.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/Server.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/bin/Debug/net6.0/Server.CrossCutting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/bin/Debug/net6.0/Server.CrossCutting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/bin/Debug/net6.0/Server.CrossCutting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/bin/Debug/net6.0/Server.CrossCutting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.CrossCutting/obj/Debug/net6.0/Server.CrossCutting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/Server.Data.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/Server.Data.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/UnitOfWork/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/UnitOfWork/UnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.CrossCutting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.CrossCutting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.CrossCutting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.CrossCutting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/bin/Debug/net6.0/Server.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/Server.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/ref/Server.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/ref/Server.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/refint/Server.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Data/obj/Debug/net6.0/refint/Server.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/Entities/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Entities/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/AppServices/CreateServerAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/AppServices/CreateServerAppService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.Domain/Entities/Video.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Entities/Video.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.CrossCutting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.CrossCutting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.CrossCutting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.CrossCutting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/bin/Debug/net6.0/Server.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/Server.Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/ref/Server.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/ref/Server.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/refint/Server.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/obj/Debug/net6.0/refint/Server.Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Solution.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Solution.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +240,8 @@
       <workItem from="1672171750174" duration="543000" />
       <workItem from="1672172485291" duration="2506000" />
       <workItem from="1672226058651" duration="475000" />
-      <workItem from="1672255775419" duration="2852000" />
+      <workItem from="1672255775419" duration="3276000" />
+      <workItem from="1672259462390" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionados metodos de reciclagem">
       <created>1672226423824</created>

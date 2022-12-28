@@ -10,7 +10,7 @@ public class Video
 
     public static Video New(
         string description,
-        byte sizeInBytes
+        decimal sizeInBytes
     ) => new Video()
     {
         Id = Guid.NewGuid(),
