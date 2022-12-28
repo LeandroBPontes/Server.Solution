@@ -5,6 +5,7 @@ using Server.Domain.Contracts;
 using Server.Domain.Enums;
 using Server.Domain.Filters;
 using Server.Domain.Projections;
+using Server.Domain.Shared.Utils;
 using Server.Domain.ViewModels;
 
 namespace Server.Api.Controllers.Api;
@@ -20,22 +21,14 @@ public class RecyclerController : BaseController
         _serverRepository = serverRepository;
     }
 
-    // [HttpGet("proccess/{days}")]
-    // public Task<PagedList<ServerVm>> CheckServerAvailableById([FromRoute] int days)
-    // {
-    //     
-    //     var where = _serverRepository.ForDays(days);
-    //
-    //     var servers = new PagedList<ServerVm>(
-    //         _serverRepository.ListAsNoTracking(where, filter).ToVm(),
-    //         await _serverRepository.CountAsync(where),
-    //         filter.PageSize
-    //     );
-    //
-    //     return servers;
-    //     
-    // }
-    
+    [HttpGet("proccess/{days:int}")]
+    public Task<List<ServerVm>> CheckServerAvailableById([FromRoute] int days)
+    {
+        var where = _serverRepository.ForDays(days);
+
+        return Task.FromResult(_serverRepository.ListAsNoTracking(where).ToVm().ToList());
+    }
+
     [HttpGet("available/{id:guid}")]
     public async Task<bool> CheckServerAvailableById([FromRoute] Guid id)
     {
@@ -43,7 +36,5 @@ public class RecyclerController : BaseController
             return false;
 
         return (await _serverRepository.FindAsyncAsNoTracking(b => b.Id == id)).Status == EStatus.Running;
-        
     }
-   
 }
