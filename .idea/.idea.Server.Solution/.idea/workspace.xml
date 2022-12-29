@@ -12,10 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da0ba32c-484f-4233-a2bb-db88630cb678" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server.Domain/AppServices/Commands/AddVideoServerCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Server.Solution/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Server.Solution/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server.Domain/Projections/VideoProjections.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server.Domain/ViewModels/VideoVm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Api/Controllers/Api/ServerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Api/Controllers/Api/ServerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/AppServices/Commands/AddVideoServerCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/AppServices/Commands/AddVideoServerCommand.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server.Domain/AppServices/CreateServerAppService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/AppServices/CreateServerAppService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.Domain/Entities/Video.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Entities/Video.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/Entities/Server.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Entities/Server.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/Entities/ServerVideo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Entities/ServerVideo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server.Domain/Projections/ServerProjection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Server.Domain/Projections/ServerProjections.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +246,7 @@
       <workItem from="1672226058651" duration="475000" />
       <workItem from="1672255775419" duration="3276000" />
       <workItem from="1672259462390" duration="598000" />
+      <workItem from="1672271863432" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionados metodos de reciclagem">
       <created>1672226423824</created>

@@ -56,7 +56,7 @@ public class ServerController : BaseController
             ? null
             : await appService.Create(command);
     }
-    
+
     [HttpPut("{id:guid}")]
     public async Task<ServerVm> Update(
         [FromServices] IUpdateServerAppService service, [FromBody] UpdateServerCommand command, [FromRoute] Guid id)
@@ -67,16 +67,17 @@ public class ServerController : BaseController
 
         return await service.Update(command);
     }
-    
+
     [HttpPut("{id:guid}/video")]
-    public async Task<ServerVm> InsertVideo(
-        [FromServices] IUpdateServerAppService service, [FromBody] UpdateServerCommand command, [FromRoute] Guid id)
+    public async Task<VideoVm> InsertVideo(
+        [FromServices] ICreateServerAppService service, [FromBody] AddVideoServerCommand command, [FromRoute] Guid id)
     {
-        if (id == Guid.Empty) return null;
+        if (id == Guid.Empty)
+            return new VideoVm();
 
-        command.Id = id;
+        command.ServerId = id;
 
-        return await service.Update(command);
+        return await service.AddVideo(command);
     }
 
     [HttpDelete("{id:guid}")]
@@ -87,7 +88,7 @@ public class ServerController : BaseController
 
         return await appService.Delete(id);
     }
-    
+
     [HttpGet("available/{id:guid}")]
     public async Task<bool> CheckServerAvailableById([FromRoute] Guid id)
     {
@@ -95,6 +96,5 @@ public class ServerController : BaseController
             return false;
 
         return (await _serverRepository.FindAsyncAsNoTracking(b => b.Id == id)).Status == EStatus.Running;
-        
     }
 }
